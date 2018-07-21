@@ -1,20 +1,12 @@
 jQuery(document).ready(function($) {
 //view entry pop up
- var contentModal = $('.content-modal');
- $("#view").on("click", function(e) {
-  e.preventDefault();
-  $(contentModal).toggleClass('content-modal-show');
- });
- $(".overlay").on("click", function() {
-  $(contentModal).toggleClass('content-modal-show');
- });
- $(".content-modal_close").on("click", function() {
-  $(contentModal).toggleClass('content-modal-show');
- });
- $(".mobile-close").on("click", function() {
-  $(contentModal).toggleClass('content-modal-show');
- });
+$('.entry-popup').on('click', function(){
+  $('.pop-up-screen, .overlay').fadeIn();
+});
 
+$('.close, .overlay').on('click', function(){
+  $('.pop-up-screen, .overlay').fadeOut();
+});
 //Add entry pop up
  $("#addEntry").on("click", function() {
   $(".mask").addClass("active");
@@ -34,4 +26,5 @@ jQuery(document).ready(function($) {
    closeModal();
   }
  });
+ //
 });
