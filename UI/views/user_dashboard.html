@@ -39,7 +39,7 @@
                 <div class="viewHeader">
                     <div class="title">Manage Entries</div>
                     <div class="functions">
-                        <div class="button active">Add New Entry</div>
+                        <div class="button active" id="addEntry">Add New Entry</div>
                         <div class="button">Share an entry</div>
                         <div class="button inverz"><i class="fa fa-trash-o"></i></div>
                     </div>
@@ -76,6 +76,26 @@
                         </ul>
                     </div>
                 </div>
+								<div class="mask"></div>
+<div class="modal">
+	<h3>Add Entry</h3>
+	<form action="#" method="post">
+		<input placeholder="Title" name="entry-title" type="text" required />
+		<div class="dropdown">
+			<select name="select-entry" id="select-entry">
+				<option class="selected">Entry Type</option>
+				<option>Random thought</option>
+				<option>Schedule</option>
+				<option>Secret Entry</option>
+				<option>Life Updates</option>
+			</select>
+		</div>
+		<input placeholder="desc" name="entity-desc" type="text" required />
+		<input placeholder="Date" name="time_stamp" type="timestamp" required />
+		<input class="formBtn" type="submit" value="Add">
+		</form>
+		<button class="close" >X</button>
+	</div>
             </div>
         </div>
     </div>
