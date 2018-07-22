@@ -16,7 +16,7 @@
     <div class="page">
         <div class="pageHeader">
             <div class="title">MyDiary</div>
-            <div class="userPanel"><i class="fa fa-chevron-down"></i><span class="username">Edgar Kibet </span><img src="../images/avatar.png" width="40" height="40" /></div>
+            <div class="userPanel"><i class="fa fa-chevron-down"></i><span class="logout"><a href="signup.html">Log Out</span></a></span><img src="../images/avatar.png" width="40" height="40" /></div>
         </div>
         <div class="main">
             <div class="nav">
@@ -28,8 +28,7 @@
                 <div class="menu">
                     <div class="title">Menu</div>
                     <ul>
-                        <li> <i class="fa fa-home"></i>Home</li>
-                        <li><i class="fa fa-signal"></i>Entries</li>
+                        <li><a href="user_dashboard.html"> <i class="fa fa-home"></i>Home</a></li>
                         <li class="active"> <i class="fa fa-tasks"></i>Manage Entries</li>
                         <li> <a href="notifications.html"><i class="fa fa-envelope"></i>Notifications</a></li>
                     </ul>
@@ -76,40 +75,41 @@
                         </ul>
                     </div>
                 </div>
-								<!--entry content goes here-->
-								<div class="pop-up-screen">
-	<a href="#" class="close" title="close">Close</a>
-	<div class="pop-up-content">
-	<span><h1>Blockchain</h1></span>
-	<p>The chain that has no end</p>
-	</div>
-</div>
-<div class="overlay"></div>
-<div class="clear"></div>
-</div>
-<div class="clear"></div>
-								<div class="mask"></div>
-<div class="modal">
-	<h3>Add Entry</h3>
-	<form action="#" method="post">
-		<input placeholder="Title" name="entry-title" type="text" required />
-		<div class="dropdown">
-			<select name="select-entry" id="select-entry">
-				<option class="selected">Entry Type</option>
-				<option>Random thought</option>
-				<option>Schedule</option>
-				<option>Secret Entry</option>
-				<option>Life Updates</option>
-			</select>
-		</div>
-		<input placeholder="desc" name="entity-desc" type="text" required />
-		<input placeholder="Date" name="time_stamp" type="timestamp" required />
-		<input class="formBtn" type="submit" value="Add">
-		</form>
-		<button class="close" >X</button>
-	</div>
+                <!--entry content goes here-->
+                <div class="pop-up-screen">
+                    <a href="#" class="close" title="close">Close</a>
+                    <div class="pop-up-content">
+                        <span><h1>Blockchain</h1></span>
+                        <p>The chain that has no end<i class="fa fa-edit"></i></p>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+            <div class="mask"></div>
+            <div class="modal">
+                <h3>Add Entry</h3>
+                <form action="#" method="post">
+                    <input placeholder="Title" name="entry-title" type="text" required />
+                    <div class="dropdown">
+                        <select name="select-entry" id="select-entry">
+                            <option class="selected">Entry Type</option>
+                            <option>Random thought</option>
+                            <option>Schedule</option>
+                            <option>Secret Entry</option>
+                            <option>Life Updates</option>
+                        </select>
+                    </div>
+                    <input placeholder="desc" name="entity-desc" type="text" required />
+                    <input placeholder="Date" name="time_stamp" type="timestamp" required />
+                    <input class="formBtn" type="submit" value="Add">
+                </form>
+                <button class="close">X</button>
+
             </div>
         </div>
+    </div>
     </div>
 </body>
 <script src="../js/jquery-3.3.1.js"></script>
