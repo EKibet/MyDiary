@@ -2,6 +2,7 @@
 This is a web app which provides a handy way to empty one's mind and feelings privately..
 
 ## [https://www.pivotaltracker.com/projects/2184271](Pivotal tracker stories)
+[![Coverage Status](https://github.com/EKibet/MyDiary/blob/ft-user-signup-%23159216371/coveral.svg)]
 
 ## Usage
 
