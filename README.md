@@ -2,8 +2,9 @@
 This is a web app which provides a handy way to empty one's mind and feelings privately..
 
 ## [https://www.pivotaltracker.com/projects/2184271](Pivotal tracker stories)
-[![Coverage Status](https://github.com/EKibet/MyDiary/blob/ft-user-signup-%23159216371/coveral.svg)]
+
 [![Coverage Status](https://coveralls.io/repos/github/EKibet/MyDiary/badge.svg?branch=feature)](https://coveralls.io/github/EKibet/MyDiary?branch=feature)
+
 ## Usage
 
 1. Git clone this repository from [https://github.com/EKibet/MyDiary.git](MyDiary).
